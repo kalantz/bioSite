@@ -1,7 +1,7 @@
 <!--
 Kypton Lantz
-April 16, 2025
-Module 7 - Assignment 2: bioSite Development
+April 29, 2025
+Module 10 - Assignment 2: bioSite Finalization
 -->
 
 <!DOCTYPE html>
@@ -13,14 +13,17 @@ Module 7 - Assignment 2: bioSite Development
   <link rel="stylesheet" href="biosite.css">
 </head>
 <body>
-  <header>
-    <h1>Photo Gallery</h1>
-    <nav>
+  <header class="hero-header">
+    <div class="hero-text">
+      <h1>Meet Kenneth Lantz</h1>
+      <p>Concrete Roots.<br>Musical Soul.<br>Family Man.</p>
+    </div>
+    <nav class="hero-nav">
       <ul>
-        <li><a href="index.html">Landing Page</a></li>
-        <li><a href="about.html">About Page</a></li>
-        <li><a href="hobbies.html">Hobbies Page</a></li>
-        <li><a href="gallery.html">Gallery Page</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
       </ul>
     </nav>
   </header>
@@ -28,27 +31,39 @@ Module 7 - Assignment 2: bioSite Development
   <main class="gallery-page">
     <section class="gallery-grid">
       <figure>
-        <img src="images\lantz-great-grandparents.jpg" alt="Old family photo" class="gallery-thumb focus-up">
+        <div class="img-wrapper" data-alt="Old family photo of Kenn's grandparents">
+          <img src="images\lantz-great-grandparents.jpg" alt="Old family photo of Kenn's grandparents" class="gallery-thumb focus-up">
+        </div>
         <figcaption><strong>Studying History</strong><br> Dad's love of family lineage</figcaption>
       </figure>
       <figure>
-        <img src="images\music-collection.jpg" alt="Vinyl records" class="gallery-thumb">
+        <div class="img-wrapper" data-alt="Vinyl record collection, displaying 'Kind of Blue' by Miles Davis">
+          <img src="images\music-collection.jpg" alt="Vinyl record collection, displaying 'Kind of Blue' by Miles Davis" class="gallery-thumb">
+        </div>
         <figcaption><strong>Musical Moments</strong><br> Learning to play and sharing the love for music</figcaption>
       </figure>
       <figure>
-        <img src="images\Renee_camping.jpg" alt="Family camping" class="gallery-thumb">
+        <div class="img-wrapper" data-alt="Kenn's wife (Renee) sitting outside their camper">
+          <img src="images\Renee_camping.jpg" alt="Kenn's wife (Renee) sitting outside their camper" class="gallery-thumb">
+        </div>
         <figcaption><strong>Family Gatherings</strong><br> Sharing meals, stories, and laughter</figcaption>
       </figure>
       <figure>
-        <img src="images\german-street.jpg" alt="German cobble street" class="gallery-thumb">
+        <div class="img-wrapper" data-alt="German cobble street">
+          <img src="images\german-street.jpg" alt="German cobble street" class="gallery-thumb">
+        </div>
         <figcaption><strong>Adventure Awaits</strong><br> Looking forward to time to visit far away places</figcaption>
       </figure>
       <figure>
-        <img src="images\Juno-pool.jpg" alt="Dogs in a pool" class="gallery-thumb">
+        <div class="img-wrapper" data-alt="Juno and Biggins playing with a kiddie pool">
+          <img src="images\Juno-pool.jpg" alt="Juno and Biggins playing with a kiddie pool" class="gallery-thumb">
+        </div>
         <figcaption><strong>Playing with his Best Buddies</strong><br> Endless time with man's best friend</figcaption>
       </figure>
       <figure>
-        <img src="images\project-camper.jpg" alt="Restoring camper" class="gallery-thumb">
+        <div class="img-wrapper" data-alt="Kenn's vintage camper project">
+          <img src="images\project-camper.jpg" alt="Kenn's vintage camper project" class="gallery-thumb">
+        </div>
         <figcaption><strong>Fix-It Sessions</strong><br> Refurbishing his vintage camper, one piece at a time</figcaption>
       </figure>
     </section>
@@ -67,6 +82,7 @@ Module 7 - Assignment 2: bioSite Development
       </div>
       <div>
         <a href="https://kalantz.github.io/csd-340/" class="back-link">Return to Kypton’s Portal</a>
+        <p>&copy; 2025 Lantz</p>
       </div>
     </section>
   </footer>
